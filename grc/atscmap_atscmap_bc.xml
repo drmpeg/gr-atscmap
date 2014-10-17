@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<block>
+  <name>ATSC FPGA Symbol Mapper</name>
+  <key>atscmap_atscmap_bc</key>
+  <category>ATSC</category>
+  <import>import atscmap</import>
+  <make>atscmap.atscmap_bc()</make>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio ATSCMAP C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the ATSCMAP GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+
