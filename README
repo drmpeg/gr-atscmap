@@ -27,6 +27,21 @@ The goal of this project is to enable the use of the Nuand
 FPGA based ATSC modulator and root-raised-cosine filter with
 the standard osmosdr Sink block.
 
+A stand alone Python script (atsc-blade-fpga.py) is provided
+in the apps directory. Uasge is:
+
+./atsc-blade-fpga.py input_file [output_file]
+
+The input file is an MPEG-2 Transport Stream at the ATSC
+bit-rate of 19.392658 Mbps. A test stream can be downloaded
+from:
+
+http://www.w6rz.net/advatsc.ts
+
+A gnuradio-companion flowgraph is included but requires the
+ATSC block definitions from https://github.com/hpux735/grc_blocks
+to be installed.
+
 Build instructions:
 
     mkdir build
