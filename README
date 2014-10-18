@@ -28,7 +28,7 @@ FPGA based ATSC modulator and root-raised-cosine filter with
 the standard osmosdr Sink block.
 
 A stand alone Python script (atsc-blade-fpga.py) is provided
-in the apps directory. Uasge is:
+in the apps directory. Usage is:
 
 ./atsc-blade-fpga.py input_file [output_file]
 
